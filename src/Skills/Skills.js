@@ -23,7 +23,7 @@ const skills = (props) => (
                 <SkillList title="Databases" skills="PostgreSQL, SQLite, Realm, MongoDB, Redis"/>
                 <div className="mdl-menu__item--full-bleed-divider"></div>
 
-                <SkillList title="Cloud Computing" skills="AWS, Firebase"/>
+                <SkillList title="Cloud Computing" skills="AWS, Firebase, Google Cloud"/>
                 <div className="mdl-menu__item--full-bleed-divider"></div>
 
                 <SkillList title="Mobile API" skills="Andriod Development, iOS Development"/>

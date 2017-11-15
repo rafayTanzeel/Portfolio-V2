@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Rafay's Portfolio",
   "main": "index.js",
-  "scripts": {
-    "test": "Mocha"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rafayTanzeel/Portfolio.git"
@@ -15,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/rafayTanzeel/Portfolio/issues"
   },
-  "homepage": "https://github.com/rafayTanzeel/Portfolio#readme",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "react": "^16.1.1",
