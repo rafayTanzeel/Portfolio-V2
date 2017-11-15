@@ -1,7 +1,7 @@
 import React from 'react';
 
 const profile = (props) => (
-  <div className="card-page mdl-card mdl-shadow--4dp">
+  <div className="card-page picture-card mdl-card mdl-shadow--4dp">
         <div className="mdl-card__title mdl-card--expand">
         </div>
         <div className="profile-info-card">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import rafayPicture from './assets/rafay.jpg';
+// import rafayPicture from './assets/rafay.jpg';
 import './App.css';
 
 import Profile from './Profile/Profile';
