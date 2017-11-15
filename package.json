@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Rafay's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "Mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafayTanzeel/Portfolio.git"
+  },
+  "author": "Rafay Tanzeel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafayTanzeel/Portfolio/issues"
+  },
+  "homepage": "https://github.com/rafayTanzeel/Portfolio#readme",
+  "private": true,
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
