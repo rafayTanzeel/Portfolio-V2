@@ -19,7 +19,7 @@
 }
 
 .mdl-card__supporting-text{
-  width: fit-content;
+  width: auto;
 }
 
 /* Menu
