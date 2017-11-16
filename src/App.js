@@ -16,13 +16,15 @@ class App extends Component {
     const Loader = () => (<div className="mdl-spinner mdl-js-spinner is-active loader"></div>);
     const Main = () =>(
       <main>
-        <Section layout={"flex-stretch-wrapper"}>
+        <Section>
           <Profile/>
         </Section>
-        <Section layout={"flex-middle-wrapper"}>
+
+        <Section>
           <Skills/>
         </Section>
-        <Section layout={"flex-middle-wrapper"}>
+        
+        <Section>
           <Contact/>
         </Section>
       </main>

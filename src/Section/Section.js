@@ -3,7 +3,7 @@ import './Section.css';
 
 const section = (props) => (  
   <section className="section mdl-shadow--4dp">
-    <div className={props.layout}>
+    <div className="flex-section-wrapper">
       {props.children}
     </div>
   </section>

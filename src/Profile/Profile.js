@@ -7,6 +7,9 @@ const profile = (props) => (
   <div className="flex-profile-card profile-card-page mdl-card mdl-shadow--4dp">
     <div className="mdl-card__title mdl-card--expand"></div>
     <div className="profile-info-card">
+      {/* <figure className="mdl-card__media">
+        <img id="bg" src={rafayPicture} alt="" />
+      </figure> */}
       <div className="mdl-card__title mdl-card--expand">
         <h2 className="mdl-card__title-text">Rafay Tanzeel</h2>
       </div>
