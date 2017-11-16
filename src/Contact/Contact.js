@@ -2,7 +2,6 @@ import React from 'react';
 import './Contact.css';
 
 const contact = (props) => (
-  <div className="mdl-grid">
       <div className="contact-card mdl-card mdl-cell--12-col mdl-shadow--2dp">
         <div className="mdl-card__title mdl-card--expand">
           <h2 className="mdl-card__title-text">Contact</h2>
@@ -35,7 +34,6 @@ const contact = (props) => (
           </ul>
         </div>
       </div>
-    </div>
 );
 
 export default contact;

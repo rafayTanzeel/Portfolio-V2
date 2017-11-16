@@ -9,15 +9,6 @@
   /* custom */
 }
 
-/* .picture-card {
-  padding-top: 60px;
-} */
-
-/* .mdl-card__supporting-text {
-  width: auto;
-} */
-
-
 /* Menu
  * --------------------------------------- */
 
@@ -50,22 +41,6 @@
 .material-icons {
   color: black;
 }
-
-
-
-
-/* .cover-title {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.inner-title {
-  margin: auto;
-  padding-top: 0;
-  text-align: center;
-} */
-
-
 
 .loading {
   position: fixed;

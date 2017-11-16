@@ -1,31 +1,26 @@
-.profile-card-page>.mdl-card__title {
+.flex-profile-card>.mdl-card__title {
   color: #FFC107;
-  background: url('../assets/rafay.jpg') center / cover;
-  /* height: 400px; */
+  background-image: url('../assets/rafay.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex-profile-card{
+  flex-grow: 1;
+}
+
+.flex-inner-profile-card{
+  flex-direction: row;
+  display: flex;
 }
 
 i {
-  color: white;
+  color: #FFC107;
 }
 
-/* .mdl-card__media {
-  margin: 0;
-  height: auto;
-} */
-
-
-/* .mdl-card__media > img {
-  max-width: 100%;
-  position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-} */
-
 .inner-card-page {
-  /* width: 100%; */
+  flex-grow: 1;
   padding: 0;
 }
 
