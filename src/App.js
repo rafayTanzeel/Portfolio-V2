@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-// import rafayPicture from './assets/rafay.jpg';
 import './App.css';
 
+import Section from './Section/Section';
 import Profile from './Profile/Profile';
 import Skills from './Skills/Skills';
 import Contact from './Contact/Contact';
@@ -16,15 +16,15 @@ class App extends Component {
     const Loader = () => (<div className="mdl-spinner mdl-js-spinner is-active loader"></div>);
     const Main = () =>(
       <main>
-        <section className="section">
+        <Section>
           <Profile/>
-        </section>
-        <section className="section">
+        </Section>
+        <Section>
           <Skills/>
-        </section>
-        <section className="section">
+        </Section>
+        <Section>
           <Contact/>
-        </section>
+        </Section>
       </main>
     );
 

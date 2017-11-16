@@ -66,7 +66,7 @@
     You need to enable JavaScript to run this app.
   </noscript>
 
-  <ul id="menu">
+  <!-- <ul id="menu">
     <li data-menuanchor="profile" class="active">
       <a href="#profile" class="mdl-button mdl-js-button mdl-js-ripple-effect">Profile</a>
     </li>
@@ -76,10 +76,43 @@
     <li data-menuanchor="contact">
       <a href="#contact" class="mdl-button mdl-js-button mdl-js-ripple-effect">Contact</a>
     </li>
-  </ul>
+  </ul> -->
+
+  <div class="mdl-layout mdl-js-layout mdl-layout--no-desktop-drawer-button">
+    <header class="mdl-layout__header nav-header mdl-layout__header--transparent">
+      <div class="mdl-layout__header-row">
+        <!-- <span class="mdl-layout__title">Rafay Tanzeel</span> -->
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation" id="menu">
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--1-col-phone">
+              <a data-menuanchor="profile" class="mdl-button mdl-js-button mdl-js-ripple-effect active" href="#profile">Profile</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--1-offset-tablet mdl-cell--2-col-tablet mdl-cell--1-col-phone">
+              <a data-menuanchor="skills" class="mdl-button mdl-js-button mdl-js-ripple-effect" href="#skills">Skills</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--1-offset-tablet mdl-cell--2-col-tablet mdl-cell--1-col-phone">
+              <a data-menuanchor="contact" class="mdl-button mdl-js-button mdl-js-ripple-effect" href="#contact">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-cell--hide-tablet mdl-layout__drawer">
+      <span class="mdl-layout__title">Rafay Tanzeel</span>
+      <nav class="mdl-navigation" id="drawer-menu">
+        <a data-menuanchor="profile" class="mdl-button mdl-js-button mdl-js-ripple-effect" href="#profile">Profile</a>
+        <a data-menuanchor="skills" class="mdl-button mdl-js-button mdl-js-ripple-effect" href="#skills">Skills</a>
+        <a data-menuanchor="contact" class="mdl-button mdl-js-button mdl-js-ripple-effect" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </div>
 
   <div id="pagepiling">
     <div id="root"></div>
   </div>
+
+
 </body>
+
 </html>

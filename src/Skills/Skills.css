@@ -1,0 +1,11 @@
+.skills-card.mdl-data-table {
+  margin: auto;
+  max-width: 920px;
+}
+
+.table-title {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}

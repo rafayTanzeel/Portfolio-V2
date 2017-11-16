@@ -1,0 +1,15 @@
+.contact-card.mdl-card {
+  margin: auto;
+  max-width: 920px;
+}
+
+.mdl-card__title {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.contact-card>.mdl-card__supporting-text>.mdl-list {
+  margin-top: 0;
+  padding-top: 0;
+}
