@@ -16,7 +16,7 @@ const profile = (props) => (
               <h2 className="mdl-card__title-text">About Me</h2>
             </div>
             <div className="mdl-card__supporting-text inner-title">
-              <p>I am a Full Stack Web and Mobile Developer</p>
+              <h5>I am a Full Stack Web and Mobile Developer</h5>
             </div>
           </div>
           <div className="inner-card-page mdl-card mdl-shadow--2dp">
@@ -24,19 +24,19 @@ const profile = (props) => (
               <h2 className="mdl-card__title-text">Education</h2>
             </div>
             <div className="mdl-card__supporting-text inner-title">
-              <p>BSc in Computer Science</p>
+              <h5>BSc in Computer Science</h5>
             </div>
         </div>
       </div>
     </div>
 
-    <div className="mdl-card__menu">
-      <a href="https://github.com/rafayTanzeel">
+    <div className="social-icons mdl-card__menu">
+      <a href="https://github.com/rafayTanzeel" target="_blank" rel="noopener noreferrer">
         <button className="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
           <i className="fa fa-github" aria-hidden="true"></i>
         </button>
       </a>
-      <a href="https://www.linkedin.com/in/rafaytanzeel">
+      <a href="https://www.linkedin.com/in/rafaytanzeel" target="_blank" rel="noopener noreferrer">
         <button className="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
           <i className="fa fa-linkedin" aria-hidden="true"></i>
         </button>

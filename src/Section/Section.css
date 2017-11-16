@@ -25,6 +25,7 @@ section {
   width: 100%;
   height: inherit;
   display: flex;
+  padding-top: 60px; 
   /* align-items: stretch; */
   /* align-content: stretch; */
   /* justify-content: initial; */
