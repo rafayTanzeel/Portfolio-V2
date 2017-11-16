@@ -19,10 +19,11 @@ const profile = (props) => (
               <h2 className="mdl-card__title-text">About Me</h2>
             </div>
             <div className="mdl-card__supporting-text inner-title">
-              <h5>I am a Full Stack Web and Mobile Developer</h5>
+              <h6>I am a full-stack web and mobile engineer with a passion for innovation and building scalable applications, which incorporate design, functionality as well as usability across devices and browsers.
+              Occasionally, I am also a hobbyist designer and artist.</h6>
             </div>
           </div>
-          <div className="inner-card-page mdl-card mdl-shadow--2dp">
+          <div className="mdl-card mdl-shadow--2dp">
             <div className="mdl-card__title">
               <h2 className="mdl-card__title-text">Education</h2>
             </div>
